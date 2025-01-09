@@ -6,13 +6,13 @@ Este projeto é um sistema interativo que executa diversos testes, como Fibonacc
 
 Antes de começar, certifique-se de que você tenha o seguinte instalado:
 
-- [Java JDK 17+](https://www.oracle.com/java/technologies/javase-downloads.html)
+- [Java JDK 21+](https://www.oracle.com/java/technologies/javase-downloads.html)
 - [Maven](https://maven.apache.org/) (opcional, caso utilize Maven como gerenciador de build)
 
 ### Clonar o Repositório
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-projeto.git
+git clone https://github.com/EricksonLOOP/RespostasTestesTargetSistemas.git
 cd nome-do-projeto
 mvn clean install
 mvn exec:java -Dexe.mainClass="org.edev.Main"
